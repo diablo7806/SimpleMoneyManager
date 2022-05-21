@@ -32,7 +32,7 @@ $address = 'https://10.0.0.2'; // Address web server is accessible from without 
 
 */
 // CONFIG //
-$database = '/w/tmp/testing.json'; // JSON Database location.
+$database = './smm.json'; // JSON Database location.
 error_reporting(-1); // Error reporting level. -1 for debug.
 // Thats it. The rest is done on site.
 
