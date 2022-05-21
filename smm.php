@@ -1,4 +1,7 @@
 <?php
+// QUICK CONFIG //
+$address = 'https://10.0.0.2'; // Address web server is accessible from without trailing /. https://example.com
+
 /* 
     SIMPLE MONEY MANAGER PHP SCRIPT. Tested and developed in PHP 7.4.3
     This PHP script in it's current form is not intended for use on public servers.
@@ -30,7 +33,6 @@
 */
 // CONFIG //
 $database = '/w/tmp/testing.json'; // JSON Database location.
-$address = 'https://10.0.0.2'; // Address web server is accessible from without trailing /. https://example.com
 error_reporting(-1); // Error reporting level. -1 for debug.
 // Thats it. The rest is done on site.
 
