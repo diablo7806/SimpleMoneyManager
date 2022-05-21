@@ -253,6 +253,7 @@ if($active[0] == 0){
     <head>
         <!-- To ensure browser doesn't cache the page and give outdated information -->
         <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <title>Simple Money Manager</title>
         <style>
             /* Tabs mikestreety */
             .tabs {
