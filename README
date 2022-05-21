@@ -1,7 +1,10 @@
 Simple Money Manager.
 
-Free and open source expense tracker for any PHP enabled web server. It's advantage of a web script over an app is global accessibility to anything with a web browser.
-Most suited for someone with a self-hosted server, "Home Lab".
+Free and open source expense tracker for any PHP enabled web server. It's advantage of a web script over an app is global accessibility to
+anything with a web browser. Most suited for someone with a self-hosted server, "Home Lab".
+
+Simple to use, works basically out of the box with only 1 configuration detail really needed, the address to be hosted on. SMM is a single file 
+application plus the database and configuration file it generates, by default in the same directory as the script as smm.json.
 
 Improvements will come as they come. I'm a mere hobbyist programmer computer nerd with a wife and kid.
 
