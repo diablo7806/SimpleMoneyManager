@@ -1,7 +1,4 @@
 <?php
-// QUICK CONFIG //
-$address = 'https://127.0.0.1'; // Address web server is accessible from without trailing /. https://example.com
-
 /* 
     SIMPLE MONEY MANAGER PHP SCRIPT. Tested and developed in PHP 7.4.3
     This PHP script in it's current form is not intended for use on public servers.
@@ -32,7 +29,8 @@ $address = 'https://127.0.0.1'; // Address web server is accessible from without
 
 */
 // CONFIG //
-$database = './smm.json'; // JSON Database location.
+$database = '/w/tmp/testing.json'; // JSON Database location.
+$address = 'https://10.0.0.2'; // Address web server is accessible from without trailing /. https://example.com
 error_reporting(-1); // Error reporting level. -1 for debug.
 // Thats it. The rest is done on site.
 
@@ -79,12 +77,7 @@ function byte($bytes){
 
 // READ DATABASE
 $default = ['funds' => 0.00, // Define default configuration.
-            'show' => ['n' => 10,
-                       'selections' => [0 => 10,
-                                         1 => 25,
-                                         2 => 50,
-                                         3 => 100,
-                                         4 => 0]],
+            'show' => 10,
             'nextid' => 1,
             'notes' => 1,
             'pages' => 1,
